@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notes_app_udemy/views/widgets/edit_view_body.dart';
 
 class EditNoteView extends StatelessWidget {
   const EditNoteView({super.key});
@@ -6,7 +7,7 @@ class EditNoteView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: EditNoteView(),
+      body: EditNoteViewBody(),
     );
   }
 }
