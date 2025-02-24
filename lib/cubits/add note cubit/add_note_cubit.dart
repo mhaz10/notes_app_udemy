@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:notes_app_udemy/constants.dart';
 import 'package:notes_app_udemy/models/note_model.dart';
