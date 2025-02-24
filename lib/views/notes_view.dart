@@ -13,7 +13,7 @@ class NotesView extends StatelessWidget {
     return BlocProvider(
       create: (context) => NotesCubit(),
       child: Scaffold(
-        resizeToAvoidBottomInset: true,
+        resizeToAvoidBottomInset: false,
         floatingActionButton: FloatingActionButton(
           backgroundColor: kPrimaryColor,
           shape: CircleBorder(),
